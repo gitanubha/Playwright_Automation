@@ -4,9 +4,9 @@ import { LoginPage } from '../pageObject/loginPage';
 
 test('@UI Login Demo SaaS account', async ({ page }) => {
   const loginPage = new LoginPage(page);
-  const username = 'anu.gaur2510@gmail.com'
+  const username = 'XXX@gmail.com'
   const password = 'Testing123'
-  const memberName = 'Anubha Gaur'
+  const memberName = 'David John'
 
   
   await loginPage.visit();         // Ensure page is open before interacting
